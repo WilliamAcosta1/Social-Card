@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /src/
 
-Sitemap: https://alexflipnote.dev/sitemap.xml
+Sitemap: https://williamacosta.xyz/sitemap.xml
