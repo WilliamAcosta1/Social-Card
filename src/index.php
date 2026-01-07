@@ -33,7 +33,6 @@
           </section>
           <div class="buttons">
             <a href="https://discord.gg/PgYtk5udkf" class="btn discord-dropshadow white-text animation hover" target="_blank">Discord</a>
-            <!-- <a href="mailto:root@alexflipnote.dev" class="btn emerald-dropshadow black-text animation hover">Email</a> -->
             <a href="https://github.com/WilliamAcosta1" class="btn github-dropshadow white-text animation hover" target="_blank">GitHub</a>
             <a href="https://www.facebook.com/share/1PqJGf1ika/" class="btn facebook-dropshadow black-text animation hover" target="_blank">Facebook</a>
             <a href="https://www.instagram.com/williamacosta014" class="btn instagram-dropshadow black-text animation hover" target="_blank">Instagram</a>
