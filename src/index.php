@@ -36,8 +36,8 @@
             <!-- <a href="mailto:root@alexflipnote.dev" class="btn emerald-dropshadow black-text animation hover">Email</a> -->
             <a href="https://github.com/WilliamAcosta1" class="btn github-dropshadow white-text animation hover" target="_blank">GitHub</a>
             <a href="https://www.instagram.com/williamacosta014" class="btn instagram-dropshadow black-text animation hover" target="_blank">Instagram</a>
-            <a href="https://open.spotify.com/user/31kystwfa3k3xwvb6j5uqfeeymue?si=1QlNlnl7R4ey2X6m86zfGg" class="btn green-dropshadow black-text animation hover" target="_blank">Spotify</a>
-            <a href="/docs" class="btn telegram-dropshadow white-text animation hover" target="_blank">Telegram</a>
+            <a href="https://open.spotify.com/user/31kystwfa3k3xwvb6j5uqfeeymue?si=1QlNlnl7R4ey2X6m86zfGg" class="btn green-sea-dropshadow black-text animation hover" target="_blank">Spotify</a>
+            <a href="https://t.me/WilliamAcosta" class="btn telegram-dropshadow white-text animation hover" target="_blank">Telegram</a>
           </div>
         </div>
       </div>
