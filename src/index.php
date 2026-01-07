@@ -58,12 +58,22 @@
 
       <div class="box-container">
         <h1 class="title emerald-text"><i class="emoji alexcoffee"></i> Information:</h1>
-        <div class="info-container"><p>
-          Hello, my name is <span class="emerald-text">Alex</span>, but known as <span class="emerald-text">AlexFlipnote</span> over the internet.
-          I'm a Developer that spends time coding scripts and building websites.
-          Been coding for around <span class="sun-flower-text" id="years-of-coding">[INSERT TIME HERE, YES]</span> now and still on the road to learn more.
-          Current coding languages I know fair enough are <span class="emerald-text">HTML, CSS, SCSS, JavaScript, Python</span> and <span class="emerald-text">SQL</span>.
-        </p></div>
+        <div class="info-container">
+  <p>
+    Hey! My name is <span class="emerald-text">William</span>, also known online as 
+    <span class="emerald-text">WilliamAcosta</span>.
+    I'm a gamer who lives for intense matches, late-night sessions, and competitive vibes.
+    Been gaming for around 
+    <span class="sun-flower-text" id="years-of-gaming">[INSERT YEARS HERE]</span>
+    and still grinding to get better every day.
+    Main interests include 
+    <span class="emerald-text">FPS</span>, 
+    <span class="emerald-text">Battle Royale</span>, 
+    <span class="emerald-text">RPGs</span> 
+    and anything that pushes skills to the limit 🎮🔥
+  </p>
+</div>
+
       </div>
 
       <div class="box-container">
