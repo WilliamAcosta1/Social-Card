@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <link href="/static/css/modesta.css" type="text/css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico"></link>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" type="text/css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <style>
@@ -28,8 +29,8 @@
           Page not found<span class="cursor">_</span>
         </h1>
         <div class="buttons">
-          <a href="/" class="btn alizarin-bg white-text">Back to home</a>
-          <a href="#" class="btn emerald-bg white-text" onclick="window.history.go(-1); return false;">Go one step back</a>
+          <a href="/" class="btn alizarin-bg white-text"><i class="fab fa-home<s"></i> Back to home</a>
+          <a href="#" class="btn emerald-bg white-text" onclick="window.history.go(-1); return false;"><i class="fab fa-back"></i> Go one step back</a>
         </div>
       </div>
     </section>
