@@ -1,13 +1,10 @@
 <html>
   <head>
-    <?php
-     $path = "/";
-      require_once("./src/_templates/_head.php");
-    ?>
     <title>404: Page not found</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <link href="/static/css/modesta.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico"></link>
 
     <!-- Custom CSS -->
     <style>
