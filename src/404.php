@@ -30,7 +30,7 @@
         </h1>
         <div class="buttons">
           <a href="/" class="btn alizarin-bg white-text"><i class="fa-solid fa-house"></i> Back to home</a>
-          <a href="#" class="btn emerald-bg white-text" onclick="window.history.go(-1); return false;"><i class="fa-utility fa-semibold fa-arrow-rotate-left"></i> Go one step back</a>
+          <a href="#" class="btn emerald-bg white-text" onclick="window.history.go(-1); return false;"><i class="fa-solid fa-circle-arrow-left"></i> Go one step back</a>
         </div>
       </div>
     </section>
