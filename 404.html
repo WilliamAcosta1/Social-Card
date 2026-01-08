@@ -29,7 +29,7 @@
           Page not found<span class="cursor">_</span>
         </h1>
         <div class="buttons">
-          <a href="/" class="btn alizarin-bg white-text"><i class="fab fa-home<s"></i> Back to home</a>
+          <a href="/" class="btn alizarin-bg white-text"><i class="fab fa-house"></i> Back to home</a>
           <a href="#" class="btn emerald-bg white-text" onclick="window.history.go(-1); return false;"><i class="fab fa-back"></i> Go one step back</a>
         </div>
       </div>
