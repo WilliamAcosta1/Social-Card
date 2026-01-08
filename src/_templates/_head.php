@@ -1,5 +1,5 @@
 <?php
-  $URL = "https://alexflipnote.dev";
+  $URL = "https://williamacosta.xyz";
 ?>
 
 <title><?php echo $title ?? "default title"; ?></title>
