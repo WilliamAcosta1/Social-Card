@@ -103,6 +103,5 @@
       </div>
 
     </section>
-    <?php require_once("./src/_templates/_footer.php"); ?>
   </body>
 </html>
