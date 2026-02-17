@@ -22,7 +22,7 @@
     <section class="fullscreen">
       <div class="background"></div>
       <div class="center-object center-text">
-        <img src="/static/images/AlexSleepy.png" class="alexsleepy">
+        <img src="/static/images/Sleepy.webp" class="alexsleepy">
         <h1 class="bold no-margin">
           <span class="alizarin-text">404</span>
           <br>
