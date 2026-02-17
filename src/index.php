@@ -19,7 +19,7 @@
               <img
                 draggable="false"
                 class="image-title primary-bg"
-                src="/static/images/branding/avatar.gif"
+                src="/static/images/branding/avatar.webp"
                 id="discord-avatar"
                 alt="WilliamAcosta avatar"
               >
