@@ -11,7 +11,7 @@
   </head>
   <body class="dark-theme github">
     <div class="fullscreen">
-      <div class="background" style="background-image: url('/static/images/background.gif');"></div>
+      <div class="background" style="background-image: url('/static/images/background.webp');"></div>
       <div class="center-object">
         <div class="container">
           <section class="me unset">
