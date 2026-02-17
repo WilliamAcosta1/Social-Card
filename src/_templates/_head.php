@@ -9,7 +9,7 @@
 <meta name="theme-color" content="#14bae4"/>
 <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico"></link>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" type="text/css" rel="stylesheet">
-<meta property="og:image" content="/static/images/branding/avatar.png" />
+<meta property="og:image" content="/static/images/avatar.webp" />
 
 <meta content="<?php echo $title ?? "Title"; ?>" property="og:title"/>
 <meta content="<?php echo $description ?? "default description"; ?>" property="og:description"/>

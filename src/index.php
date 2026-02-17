@@ -11,7 +11,7 @@
   </head>
   <body class="dark-theme github">
     <div class="fullscreen">
-      <div class="background" style="background-image: url('/static/images/background.gif');"></div>
+      <div class="background" style="background-image: url('/static/images/background.webp);"></div>
       <div class="center-object">
         <div class="container">
           <section class="me unset">
@@ -19,7 +19,7 @@
               <img
                 draggable="false"
                 class="image-title primary-bg"
-                src="/static/images/branding/avatar.gif"
+                src="/static/images/avatar.webp"
                 id="discord-avatar"
                 alt="WilliamAcosta avatar"
               >
