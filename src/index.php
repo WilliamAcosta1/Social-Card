@@ -32,7 +32,7 @@
             </div>
           </section>
           <div class="buttons">
-            <a href="https://discord.gg/PgYtk5udkf" class="btn discord-dropshadow white-text animation hover" target="_blank"> <i class="fab fa-discord"></i> Discord</a>
+            <a href="https://discord.com/users/963953391061585972" class="btn discord-dropshadow white-text animation hover" target="_blank"> <i class="fab fa-discord"></i> Discord</a>
             <a href="https://github.com/WilliamAcosta1" class="btn github-dropshadow white-text animation hover" target="_blank"><i class="fab fa-github"></i> GitHub</a>
             <a href="https://www.facebook.com/share/1PqJGf1ika/" class="btn facebook-dropshadow white-text animation hover" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
             <a href="https://www.instagram.com/williamacosta014" class="btn instagram-dropshadow white-text animation hover" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
