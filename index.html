@@ -74,19 +74,19 @@
 
       <div class="box-container">
         <h1 class="title emerald-text"><i class="emoji alexcoffee"></i> Information:</h1>
-       <div class="info-container">
-  <p>
-    Hey, my name is <span class="emerald-text">William</span>, also known online as 
-    <span class="emerald-text">WilliamAcosta</span>.
-    I’m a chill gamer who enjoys relaxed sessions, good games, and good vibes.
-    I play mostly to unwind, explore worlds, and enjoy games at my own pace.
-    I also run a gaming server called 
-    <a href="https://discord.gg/PgYtk5udkf" target="_blank" class="emerald-text">
-      Game&Chill
-    </a>, 
-    a place to hang out, play, and just enjoy the moment 🎮✨
-  </p>
-</div>
+        <div class="info-container">
+          <p>
+            Hey, my name is <span class="emerald-text">William</span>, also known online as 
+            <span class="emerald-text">WilliamAcosta</span>.
+            I’m a chill gamer who enjoys relaxed sessions, good games, and good vibes.
+            I play mostly to unwind, explore worlds, and enjoy games at my own pace.
+            I also run a gaming server called 
+            <a href="https://discord.gg/PgYtk5udkf" target="_blank" class="emerald-text">
+              Game&Chill
+            </a>, 
+            a place to hang out, play, and just enjoy the moment 🎮✨
+          </p>
+        </div>
       </div>
 
       <div class="box-container">
@@ -166,6 +166,66 @@
     <link href="/static/css/markdown.css" type="text/css" rel="stylesheet">
     <link href="/static/css/emojis.css" type="text/css" rel="stylesheet">
     <link href="/static/css/custom.css" type="text/css" rel="stylesheet">
-    
+
+    <!-- Música y botón flotante -->
+    <audio id="miAudio"></audio>
+    <button id="btnAudio" title="Reproducir/Pausar música">🔊</button>
+
+    <style>
+      /* Botón flotante - poner en custom.css si quieres */
+      #btnAudio {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: rgba(40, 40, 40, 0.8);
+        color: #1DB954;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        transition: transform 0.2s, background-color 0.2s;
+        z-index: 999;
+      }
+      #btnAudio:hover {
+        transform: scale(1.1);
+        background-color: rgba(40, 40, 40, 1);
+      }
+    </style>
+
+    <script>
+      const audioFiles = [];
+      const audio = document.getElementById('miAudio');
+      const btn = document.getElementById('btnAudio');
+
+      function playRandom() {
+        if(audioFiles.length === 0) return;
+        const index = Math.floor(Math.random() * audioFiles.length);
+        audio.src = audioFiles[index];
+        audio.play().catch(() => {});
+      }
+
+      audio.addEventListener('ended', playRandom);
+
+      window.addEventListener('load', () => {
+        playRandom();
+      });
+
+      btn.addEventListener('click', () => {
+        if(audio.paused){
+          audio.play();
+          btn.textContent = "🔊";
+        } else {
+          audio.pause();
+          btn.textContent = "🔈";
+        }
+      });
+    </script>
+
   </body>
 </html>
