@@ -61,7 +61,6 @@
     </div>
 
     <section class="container" id="information">
-
       <div class="box-container">
         <h1 class="title emerald-text"><i class="emoji alexcoffee"></i> Information:</h1>
         <div class="info-container">
@@ -82,7 +81,6 @@
       <div class="box-container">
         <h1 class="title emerald-text"><i class="emoji aalexnoted"></i> Projects:</h1>
         <div class="info-container">
-
           <div class="flex-grid">
             <?php
               require_once("./src/_templates/_projects.php");
@@ -105,10 +103,8 @@
               }
             ?>
           </div>
-
         </div>
       </div>
-
     </section>
 
     <!-- CSS -->
@@ -117,12 +113,11 @@
     <link href="/static/css/emojis.css" type="text/css" rel="stylesheet">
     <link href="/static/css/custom.css" type="text/css" rel="stylesheet">
 
-    <!-- Música y botón flotante -->
-    <audio id="miAudio"></audio>
+    <!-- AUDIO DE PRUEBA CON CONTROLES -->
+    <audio id="miAudio" controls></audio>
     <button id="btnAudio" title="Reproducir/Pausar música">🔊</button>
 
     <style>
-      /* Botón flotante - poner en custom.css si quieres */
       #btnAudio {
         position: fixed;
         bottom: 20px;
@@ -160,12 +155,15 @@
         audio.play().catch(() => {});
       }
 
-      audio.addEventListener('ended', playRandom);
-
+      // Reproducir primera canción al cargar
       window.addEventListener('load', () => {
         playRandom();
       });
 
+      // Cambiar canción cuando termina
+      audio.addEventListener('ended', playRandom);
+
+      // Botón de pausa/reproducción
       btn.addEventListener('click', () => {
         if(audio.paused){
           audio.play();
@@ -176,6 +174,5 @@
         }
       });
     </script>
-
   </body>
 </html>
